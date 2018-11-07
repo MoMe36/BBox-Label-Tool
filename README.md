@@ -1,7 +1,7 @@
 BBox-Label-Tool
 ===============
 
-A simple tool for labeling object bounding boxes in images, implemented with Python Tkinter.
+A simple tool for labeling object bounding boxes in images, implemented with Python Tkinter. Original work from [BBox-Label-Tool](https://github.com/puzzledqs/BBox-Label-Tool) and improved by [xiaqunfeng](https://github.com/xiaqunfeng/BBox-Label-Tool)
 
 **Screenshot:**
 ![Label Tool](./example.jpg)
@@ -31,6 +31,12 @@ Python 3.6.5
 '4.2.1'
 ```
 
+Extraction
+-------
+
+Extracting frames from a video: Edit the ```vid2ip.py``` script with video path and name. Planning on adding parser to do everything from cmd line. 
+
+
 Run
 -------
 ```
@@ -41,6 +47,14 @@ set label class to : dog
 Image No. 1 saved
 Image No. 2 saved
 ```
+
+For some reasons, images are not always selected in order. Do not worry, created labels are accordingly named. 
+
+Post-Processing
+-------
+
+The ```label2txt.py``` should be edited to create a .txt file formatted to fit the VOC dataset style. I made it so it is compatible with [this yolo implementation](https://github.com/qqwweee/keras-yolo3)
+
 
 Usage
 -----

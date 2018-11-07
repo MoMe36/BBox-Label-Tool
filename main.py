@@ -205,6 +205,7 @@ class LabelTool():
     def loadImage(self):
         # load image
         imagepath = self.imageList[self.cur - 1]
+        # print('Image path: ', imagepath)
         self.img = Image.open(imagepath)
         size = self.img.size
         self.factor = max(size[0]/1000, size[1]/1000., 1.)
