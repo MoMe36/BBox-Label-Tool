@@ -53,7 +53,7 @@ For some reasons, images are not always selected in order. Do not worry, created
 Post-Processing
 -------
 
-The ```label2txt.py``` should be edited to create a .txt file formatted to fit the VOC dataset style. I made it so it is compatible with [this yolo implementation](https://github.com/qqwweee/keras-yolo3)
+The ```label2txt.py``` should be edited to create a .txt file formatted to fit the VOC dataset style. I made it so it is compatible with [this yolo implementation](https://github.com/MoMe36/Keras-YOLOv3)
 
 
 Usage
